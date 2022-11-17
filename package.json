@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Mule-ME/Food_delivery/issues"
   },
-  "homepage": "https://github.com/Mule-ME/Food_delivery#readme"
+  "homepage": "https://github.com/Mule-ME/Food_delivery#readme",
+  "dependencies": {
+    "tailwindcss": "^3.2.4"
+  }
 }
