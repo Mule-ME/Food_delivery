@@ -1,0 +1,19 @@
+{
+  "name": "food_delivery",
+  "version": "1.0.0",
+  "description": "Simple food delivery app for learning tailwind css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mule-ME/Food_delivery.git"
+  },
+  "author": "Mulualem Eshetu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mule-ME/Food_delivery/issues"
+  },
+  "homepage": "https://github.com/Mule-ME/Food_delivery#readme"
+}
