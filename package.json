@@ -4,7 +4,7 @@
   "description": "Simple food delivery app for learning tailwind css",
   "main": "index.js",
   "scripts": {
-    "tailwindcss": "tailwindcss -i ./src/input.css -o ./public/css/style.css --watch"
+    "tailwindcss": "npx tailwindcss -i ./src/input.css -o ./public/css/style.css --watch"
   },
   "repository": {
     "type": "git",
