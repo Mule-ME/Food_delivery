@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Allin1 Deliver</title>
   </head>
   <body class="text-gray-600 font-body min-h-full">
@@ -12,12 +12,28 @@
       <!--Navigation begin-->
       <div class="md:col-span-1 md:flex md:justify-end">
         <nav class="text-right">
-          <div>
+          <div class="flex justify-between items-center">
             <h1 class="font-bold p-4 border-b border-gray-100">
               <a href="/" class="hover:text-gray-700">Allin1 Deliver</a>
             </h1>
+            <div class="cursor-pointer md:hidden px-4" id="burger">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+              </svg>
+            </div>
           </div>
-          <ul class="text-sm mt-6">
+          <ul class="text-sm mt-6 hidden md:block" id="menu">
             <li class="text-gray-700 font-bold py-1">
               <a
                 href="#"
@@ -87,12 +103,12 @@
         <div class="flex justify-center md:justify-end md:gap-4">
           <a
             href="#"
-            class="btn text-primary border-primary md:border-2 hover:bg-primary hover:text-white"
+            class="btn text-primary border-primary md:border-2 hover:bg-primary hover:text-white transition ease-out duration-500"
             >Log in</a
           >
           <a
             href="#"
-            class="btn text-primary border-primary md:border-2 hover:bg-primary hover:text-white"
+            class="btn text-primary border-primary md:border-2 hover:bg-primary hover:text-white transition ease-out duration-500"
             >Sign up</a
           >
         </div>
@@ -214,4 +230,5 @@
       </main>
     </div>
   </body>
+  <script src="index.js"></script>
 </html>
